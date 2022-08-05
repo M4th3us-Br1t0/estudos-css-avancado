@@ -1,0 +1,35 @@
+/* p:first-child{
+    color: aquamarine;
+} */
+
+/* p:last-child{
+    color: blueviolet;
+} */
+
+/* p:not(.padrao){
+    color: yellow;
+} */
+
+/* p:nth-child(even){
+    color: red;
+} */
+
+/* li:nth-child(odd){
+    color: darkgreen;
+} */
+
+/* li:nth-child(3n){
+    color: darkgreen;
+} */
+
+/* li:nth-child(n+2):nth-child(-n+5){
+    color: darkgreen;
+} */
+
+li:nth-last-child(1){
+    color: red;
+}
+
+p:only-child{
+    color: red;
+}

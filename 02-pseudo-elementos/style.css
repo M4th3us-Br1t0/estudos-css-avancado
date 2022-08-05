@@ -1,0 +1,26 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+/* #paragrafo
+.paragrafo */
+
+p::first-letter{
+    color: coral;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+.first-line::first-letter{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+h2::before{
+    content: url()
+}
